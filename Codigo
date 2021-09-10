@@ -1,0 +1,10 @@
+var A = parseInt(gets());
+var B = parseInt(gets());
+var C = parseInt(gets());
+var D = parseInt(gets());
+
+let multiplicacao = (A * B);
+let multiplicacao1 = (C * D);
+
+let subtrair = multiplicacao - multiplicacao1;
+console.log("DIFERENCA = " + subtrair);
